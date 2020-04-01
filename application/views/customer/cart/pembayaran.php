@@ -12,7 +12,7 @@
                     <a href="<?= base_url('Home') ?>">Home</a>
                 </li>
                 <li class="breadcrumb-item">
-                    <a href="<?= base_url('Cart/detail') ?>">Cart</a>
+                    <a href="<?= base_url('Cart/detail_keranjang') ?>">Cart</a>
                 </li>
                 <li class="breadcrumb-item active">Form Pembayaran</li>
             </ol>

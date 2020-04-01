@@ -11,7 +11,7 @@ class AdminHome extends CI_Controller {
 
         if($this->input->post('keyword')){
             #code...
-            $data['buku']=$this->Kategori_model->cariDataKategori();
+            $data['buku']=$this->Buku_model->cari();
         }
 
         $this->load->view('templates/header_admin', $data);
